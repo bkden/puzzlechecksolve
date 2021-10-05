@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Puzzle Check Solve</title>
+        <link rel='stylesheet' href='check.css'>
+        <link rel="shortcut icon" type="image/x-icon" href="./pic/icon.jpg">
+    </head>
+    <body>
+        <div id="status" tabindex='0'>
+            <table id='tblstatus'>
+                
+            </table>
+        </div>
+        <div id="contain">
+            <table id='gameboard'></table>
+        </div>
+        <div id="option">
+            <div id="input">
+                <table id='tblinput'>
+                    <tr>
+                        
+                        <td class='space'></td>
+                        <td><input type="text" id="row" value='3' class='box' onClick="this.setSelectionRange(0,this.value.length)" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"></td>
+                        
+                        <td class='space'></td>
+                        <td class='space'>x</td>
+                        
+                        <td class='space'></td>
+                        <td><input type="text" id='col' value='3' class='box' onClick="this.setSelectionRange(0,this.value.length)" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"></td>
+                        
+                    </tr>
+                </table>
+            </div>
+
+            <div id="button">
+                <table id="tblbutton">
+                    <tr>
+                        <td><button id='btnewgame' class='bt' onclick='start();'>NEW</button></td>
+                    
+                        <td><button id='btcheck' class='bt' onclick="check();">CHECK</button></td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src='check.js'></script>
+</html>

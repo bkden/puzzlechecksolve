@@ -1,0 +1,154 @@
+#contain {
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+}
+
+#gameboard {
+    width: 600px;
+    height: 600px;
+}
+
+
+#option {
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
+    height: 85px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    position: relative;
+}
+#input {
+    position: absolute;
+    top: 20px;
+    width: 150px;
+    left: 20px;
+    
+}
+#tblinput {
+    width: 100px;
+    margin-left: 5px;
+
+}
+.space {
+    width: 20px;
+    
+}
+
+.txtbox {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title{
+    width: 100px;
+    height: 40px;
+    font-size: 20pt;
+    margin-left: 10px;
+    font-family: monospace;
+
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    font-size: 20pt;
+    font-family: monospace;
+    text-align: center;
+    outline: none;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+}
+
+.box:focus {
+    box-shadow: 0 0 7px gray;
+}
+
+
+#button {
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top: 20px;
+    left: 180px;
+    
+}
+
+#tblbutton {
+    width: 350px;
+}
+
+#tblbutton tr {
+    text-align: right;
+}
+
+.bt {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #b3b3b3;
+    font-size: 20pt;
+    font-family: monospace;
+}
+
+.bt:hover {
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+}
+
+#status {
+    width: 600px;
+    height: 415px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    position: relative;
+    display: none;
+}
+
+#tblstatus {
+    border-collapse: collapse;
+    width: 580px;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#tblstatus td {
+    height: 60px;
+    font-size: 15pt;
+    font-family: monospace;
+    padding-left: 10px;
+}
+
+.tdtitle {
+    width: 350px;
+    border: 1px solid #b3b3b3;
+}
+
+.tdresult {
+    background-color: #e0e0e0;
+}
+
+.tdnone {
+    border-left: none;
+}
+
+.tdrs {
+    border: 1px solid #b3b3b3;
+    text-align: center;
+}
+
+.trspace {
+    height: 20px;
+}
